@@ -1,0 +1,19 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+:root {
+	--color-nav: #0084fd;
+	--color-secondary: #ffffff;
+	--color-bg-primary: #9792e4;
+	--color-primary: #333333;
+	--color-bg-secondary: #b5ddff;
+	--color-title-cta: #fdc15f;
+}
