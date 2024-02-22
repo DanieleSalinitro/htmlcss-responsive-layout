@@ -24,9 +24,13 @@ img{
 body{
     font-family: 'PT Sans', sans-serif;
 }
-section{
-    padding: 20px;
-    scroll-margin-top: 75px;
+
+#features, #partner, #about-us{
+    background-color: var(--color-secondary);
+}
+
+#planning, #benefits, #call-to-action{
+    background-color: var(--color-bg-primary);
 }
 
 a{
@@ -75,7 +79,26 @@ a{
 .padding{
     padding: 20px;
 }
+/* ********** */
 
+/* utility testi */
+h1{
+    font-size: 4.5em;
+    font-weight: 900;
+}
+h2{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+}
+
+.text-center{
+    text-align: center;
+}
 /* ********** */
 
 /* utility button */
@@ -119,15 +142,20 @@ header nav:hover ul{
 }
 /* ********** */
 
+section{
+    padding: 20px;
+    scroll-margin-top: 75px;
+}
+
 /* section features */
-    .first-card{
+    .first-card-feature{
         background-color: var(--color-bg-secondary);
         border-radius: 20px;
         padding: 20px 20px 0 20px;
         color: var(--color-nav);
         
     }
-    .card{
+    .card-feature{
         background-color: var(--color-bg-secondary);
         border-radius: 20px;
         padding: 100px;
@@ -135,29 +163,66 @@ header nav:hover ul{
         color: var(--color-nav);
         margin-top: 50px;
     }
-    .card .icon{
+    .card-feature .icon{
         font-size: 4em;
     }
     .text-card{
         color: var(--color-primary);
     }
-    .direction{
-        flex-direction: column;
+    
+/* ********** */
+
+/* section planning */
+    .second{
+        text-align: center;
     }
 /* ********** */
 
+
+
+/* utility planning */
+    .image-card{
+        background-color: var(--color-secondary);
+        border-radius: 20px;
+    }
+/* ********** */
+
+/* utility partners */
+.card-partners{
+    background-color: var(--color-bg-primary);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: var(--color-secondary);
+    margin-top: 50px;
+}
+.box-image{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    overflow: hidden;
+}
+.box-image img{
+}
+/* ********** */
+
 /* utility flex */
-.d-flex{
-    display: flex
-}
-.space-between{
-    justify-content: space-between;
-}
-.center-align{
-    align-items: center;
-    align-content: center;
-    align-self: center;
-}
+    .d-flex{
+        display: flex
+    }
+    .space-between{
+        justify-content: space-between;
+    }
+    .center-align{
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .direction{
+        flex-direction: column;
+    }
 
 /* ********** */
 
