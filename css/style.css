@@ -17,3 +17,162 @@ ul{
 	--color-bg-secondary: #b5ddff;
 	--color-title-cta: #fdc15f;
 }
+img{
+    width: 100%;
+    display: block;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+section{
+    padding: 20px;
+    scroll-margin-top: 75px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+/* utility spaziature */
+
+.margintb{
+    margin: 20px 0;
+}
+.marginlr{
+    margin: 0 20px;
+}
+.margint{
+    margin-top: 20px;
+}
+.marginb{
+    margin-bottom: 20px;
+}
+.marginl{
+    margin-left: 20px;
+}
+.marginr{
+    margin-right: 20px;
+}
+.paddingtb{
+    padding: 20px 0;
+}
+.paddinglr{
+    padding: 0 20px;
+}
+.paddingt{
+    padding-top: 20px;
+}
+.paddingb{
+    padding-bottom: 20px;
+}
+.paddingl{
+    padding-left: 20px;
+}
+.paddingr{
+    padding-right: 20px;
+}
+.padding{
+    padding: 20px;
+}
+
+/* ********** */
+
+/* utility button */
+.button{
+    background-color: var(--color-nav);
+    display: inline-block;
+    padding: 10px 100px;
+    border-radius: 20px;
+    
+}
+/* ********** */
+
+/* header */
+header{
+    background-color: var(--color-nav);
+}
+/* ********** */
+
+
+/* hamburger */
+header nav ul{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    background-color: var(--color-nav);
+    display: none;
+}
+
+header nav{
+    position: relative;
+    padding: 10px;
+}
+
+header nav:hover ul{
+    display: block;
+}
+
+.burger-menu{
+    align-self: center;
+    color: var(--color-secondary);
+}
+/* ********** */
+
+/* section features */
+    .first-card{
+        background-color: var(--color-bg-secondary);
+        border-radius: 20px;
+        padding: 20px 20px 0 20px;
+        color: var(--color-nav);
+        
+    }
+    .card{
+        background-color: var(--color-bg-secondary);
+        border-radius: 20px;
+        padding: 100px;
+        text-align: center;
+        color: var(--color-nav);
+        margin-top: 50px;
+    }
+    .card .icon{
+        font-size: 4em;
+    }
+    .text-card{
+        color: var(--color-primary);
+    }
+    .direction{
+        flex-direction: column;
+    }
+/* ********** */
+
+/* utility flex */
+.d-flex{
+    display: flex
+}
+.space-between{
+    justify-content: space-between;
+}
+.center-align{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+/* ********** */
+
+/* @media screen and (min-width: 1200px){
+    header nav:hover ul{
+        display: flex;
+    }
+    header nav ul{
+        position: static;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    #feature .container > .card{
+        display: flex;
+    }
+} */
